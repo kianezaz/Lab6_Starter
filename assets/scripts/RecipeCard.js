@@ -156,7 +156,6 @@ class RecipeCard extends HTMLElement {
     const ratings = document.createElement('div');
     ratings.classList.add('rating');
     if (searchForKey(data, "ratingValue") === undefined) {
-      console.log("here");
       const noReview = document.createElement('p');
       const noReviewText = document.createTextNode("No Reviews");
       noReview.appendChild(noReviewText);

@@ -1,0 +1,209 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [{
+        "@type": "Organization",
+        "@id": "https://natashaskitchen.com/#organization",
+        "name": "Natashas Kitchen",
+        "url": "https://natashaskitchen.com/",
+        "sameAs": [],
+        "logo": {
+            "@type": "ImageObject",
+            "@id": "https://natashaskitchen.com/#logo",
+            "inLanguage": "en-US",
+            "url": "https://natashaskitchen.com/wp-content/uploads/2018/10/NK-NEW-LOGO.png",
+            "contentUrl": "https://natashaskitchen.com/wp-content/uploads/2018/10/NK-NEW-LOGO.png",
+            "width": 792,
+            "height": 792,
+            "caption": "Natashas Kitchen"
+        },
+        "image": {
+            "@id": "https://natashaskitchen.com/#logo"
+        }
+    }, {
+        "@type": "WebSite",
+        "@id": "https://natashaskitchen.com/#website",
+        "url": "https://natashaskitchen.com/",
+        "name": "NatashasKitchen.com",
+        "description": "A Food Blog with Tried and True Recipes.",
+        "publisher": {
+            "@id": "https://natashaskitchen.com/#organization"
+        },
+        "inLanguage": "en-US"
+    }, {
+        "@type": "ImageObject",
+        "@id": "https://natashaskitchen.com/fudgy-brownie-recipe/#primaryimage",
+        "inLanguage": "en-US",
+        "url": "https://natashaskitchen.com/wp-content/uploads/2020/08/Chocolate-Brownie-Recipe-5.jpg",
+        "contentUrl": "https://natashaskitchen.com/wp-content/uploads/2020/08/Chocolate-Brownie-Recipe-5.jpg",
+        "width": 1200,
+        "height": 1800,
+        "caption": "fudgy brownies stacked on parchment paper"
+    }, {
+        "@type": "WebPage",
+        "@id": "https://natashaskitchen.com/fudgy-brownie-recipe/#webpage",
+        "url": "https://natashaskitchen.com/fudgy-brownie-recipe/",
+        "name": "Fudgy Brownie Recipe (VIDEO) - NatashasKitchen.com",
+        "isPartOf": {
+            "@id": "https://natashaskitchen.com/#website"
+        },
+        "primaryImageOfPage": {
+            "@id": "https://natashaskitchen.com/fudgy-brownie-recipe/#primaryimage"
+        },
+        "datePublished": "2020-08-21T16:18:36+00:00",
+        "dateModified": "2020-08-21T16:18:36+00:00",
+        "description": "The ultimate Fudgy Brownie Recipe. These Homemade brownies stay moist for days. Watch the easy video tutorial and learn how to make brownies.",
+        "breadcrumb": {
+            "@id": "https://natashaskitchen.com/fudgy-brownie-recipe/#breadcrumb"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": [{
+            "@type": "ReadAction",
+            "target": ["https://natashaskitchen.com/fudgy-brownie-recipe/"]
+        }]
+    }, {
+        "@type": "BreadcrumbList",
+        "@id": "https://natashaskitchen.com/fudgy-brownie-recipe/#breadcrumb",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://natashaskitchen.com/"
+        }, {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Dessert",
+            "item": "https://natashaskitchen.com/category/dessert/"
+        }, {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Fudgy Brownie Recipe (VIDEO)"
+        }]
+    }, {
+        "@type": "Article",
+        "@id": "https://natashaskitchen.com/fudgy-brownie-recipe/#article",
+        "isPartOf": {
+            "@id": "https://natashaskitchen.com/fudgy-brownie-recipe/#webpage"
+        },
+        "author": {
+            "@id": "https://natashaskitchen.com/#/schema/person/1a021db2549d0f8816d974eb82d2b76f"
+        },
+        "headline": "Fudgy Brownie Recipe (VIDEO)",
+        "datePublished": "2020-08-21T16:18:36+00:00",
+        "dateModified": "2020-08-21T16:18:36+00:00",
+        "wordCount": 996,
+        "commentCount": 536,
+        "publisher": {
+            "@id": "https://natashaskitchen.com/#organization"
+        },
+        "image": {
+            "@id": "https://natashaskitchen.com/fudgy-brownie-recipe/#primaryimage"
+        },
+        "thumbnailUrl": "https://natashaskitchen.com/wp-content/uploads/2020/08/Chocolate-Brownie-Recipe-5.jpg",
+        "keywords": ["baking powder", "butter", "chocolate", "chocolate chips", "cocoa powder", "coffee", "egg", "vanilla extract"],
+        "articleSection": ["American Recipes", "Cake", "Christmas", "Cookies", "Dessert", "Dessert Videos", "favorite-dessert", "Favorites", "Freezer Friendly", "Holiday", "How To", "Kid Friendly", "Pastries", "Valentine's Day", "Vegetarian", "Videos"],
+        "inLanguage": "en-US",
+        "potentialAction": [{
+            "@type": "CommentAction",
+            "name": "Comment",
+            "target": ["https://natashaskitchen.com/fudgy-brownie-recipe/#respond"]
+        }]
+    }, {
+        "@type": "Person",
+        "@id": "https://natashaskitchen.com/#/schema/person/1a021db2549d0f8816d974eb82d2b76f",
+        "name": "Natasha Kravchuk",
+        "image": {
+            "@type": "ImageObject",
+            "@id": "https://natashaskitchen.com/#personlogo",
+            "inLanguage": "en-US",
+            "url": "https://secure.gravatar.com/avatar/7422082c0b680dbf474792a34e767c0e?s=96&d=mm&r=g",
+            "contentUrl": "https://secure.gravatar.com/avatar/7422082c0b680dbf474792a34e767c0e?s=96&d=mm&r=g",
+            "caption": "Natasha Kravchuk"
+        },
+        "description": "Welcome to my kitchen! I am Natasha, the blogger behind Natasha's Kitchen (since 2009). My husband and I run this blog together and share only our best, family approved and tested recipes with YOU. Thanks for stopping by! We are so happy you're here.",
+        "sameAs": ["https://natashaskitchen.com/"],
+        "url": "https://natashaskitchen.com/author/natashaskitchen/"
+    }, {
+        "@context": "http://schema.org/",
+        "@type": "Recipe",
+        "name": "Fudgy Brownie Recipe",
+        "author": {
+            "@type": "Person",
+            "name": "Natasha Kravchuk"
+        },
+        "description": "The ultimate Fudgy Brownie Recipe - super chocolatey without being overly sweet! These homemade brownies are decadent and stay moist for days.",
+        "datePublished": "2020-08-21T10:18:36+00:00",
+        "image": ["https://natashaskitchen.com/wp-content/uploads/2020/08/Chocolate-Brownie-Recipe-5.jpg", "https://natashaskitchen.com/wp-content/uploads/2020/08/Chocolate-Brownie-Recipe-5-500x500.jpg", "https://natashaskitchen.com/wp-content/uploads/2020/08/Chocolate-Brownie-Recipe-5-500x375.jpg", "https://natashaskitchen.com/wp-content/uploads/2020/08/Chocolate-Brownie-Recipe-5-480x270.jpg"],
+        "video": {
+            "name": "The Best Fudgy BROWNIES RECIPE I Ever Made",
+            "description": "The ultimate fudgy Brownie Recipe! These homemade brownies are decadent and stay moist for days. There's a secret ingredient that makes them super chocolatey without being overly sweet.\n\u2b07\ufe0f\u2b07\ufe0f\u2b07\ufe0f\u2b07\ufe0f RECIPE BELOW  \u2b07\ufe0f\u2b07\ufe0f\u2b07\ufe0f\u2b07\ufe0f\n\nBROWNIE RECIPE INGREDIENTS:\n\u25ba1/2 lb unsalted butter, softened \n\u25ba16 oz semisweet chocolate chips, (2 1/2 cups by measuring cup), divided \n\u25ba4 large eggs \n\u25ba1 Tbsp instant coffee granules (6.2 grams)\n\u25ba1 Tbsp vanilla extract\n\u25ba1 1/4 cups granulated sugar \n\u25ba2/3 cup all-purpose flour \n\u25ba1 1/2 tsp baking powder\n\u25ba1/2 tsp salt \n\u25ba3 Tbsp vegetable oil\n\u25ba1/2 cup unsweetened cocoa powder \n\n\ud83d\udda8 PRINT RECIPE HERE: https://natashaskitchen.com/fudgy-brownie-recipe/\n\n\u23f1\ufe0fTIMESTAMPS\u23f1\ufe0f\n0:00 Intro\n0:40 Making the chocolate sauce\n1:14 Mixing the rest of the ingredients\n1:28 Brownie secret ingredients\n2:25 Mixing dry ingredients together\n3:00 Combining dry and wet ingredients\n4:16 How to bake brownies\n4:45 Cooling brownies\n4:56 Taste Test\n5:44 How to clean-cut a brownie\n7:55 Describing the brownie\n8:39 Kids taste the brownie\n\n\u2b50\ufe0fPRODUCTS IN THIS VIDEO (affiliate):\n\u25ba Colander Sifter: https://amzn.to/39F0Xr2\n\u25ba 9 x 9 Square Baking Pan: https://amzn.to/2QaCS2f\n\u25ba Small Whisk: https://amzn.to/32eWKa2\n\u25ba Large Spatula: https://amzn.to/3hNszNi\n\u25ba Precut Parchment Paper: https://amzn.to/2Qa2QDh\n\u25ba 3 Quart Sauce Pan: https://amzn.to/2E1UFGF\n\u25ba Food Scale: https://amzn.to/317MDmU\n\u25ba Glass Mixing Bowls: https://amzn.to/3hhQnZR\n\u25ba Cake Tester & Releasing Tool: https://amzn.to/2Dq1zVa\n\u25ba White Dutch Oven: https://amzn.to/2ZPnRas\n\u25ba Oven Mittens: https://amzn.to/33aRNBj\n\u25ba Cork Heat Trivet: https://amzn.to/2EmjrRD\n\nALWAYS IN MY KITCHEN (affiliate):\n\u25baMy Favorite Cutting Board: https://amzn.to/2Y4AmQC\n\u25baHand Mixer: https://amzn.to/2xLQs36\n\u25baFavorite Blender: https://amzn.to/2XZ52ms\n\u25baFood Processor: https://amzn.to/32nToAY\n\u25baGlass Bowls: https://amzn.to/2XIqvfo\n\u25baKitchen Scale: https://amzn.to/2XG9l1X\n\u25baGlass Storage Containers: https://amzn.to/2xMhXcN\n\u25baKnife Block Set: https://amzn.to/30gLuuO\n\u25baOur Dinnerware Set: https://amzn.to/2Ob2TPm\n\u25baMy White Apron: https://amzn.to/2ZVrChv\n\nFOLLOW ME:\n\u25baINSTAGRAM: https://www.instagram.com/NatashasKitchen\n\u25baFACEBOOK: https://www.facebook.com/NatashasKitchen\n\u25baPINTEREST: https://www.pinterest.com/NatashasKitchen\n\nCONNECT:\n\u25baWEBSITE: https://natashaskitchen.com\n\u25baALL MY RECIPES: https://natashaskitchen.com/recipes/ \n\n\ud83d\udc8cFan Mail:\nNatasha's Kitchen\nPO Box 161\nMeridian, ID 83680\nUSA\n#natashaskitchen #brownies #dessert",
+            "uploadDate": "2020-08-21T15:30:11+00:00",
+            "duration": "PT10M4S",
+            "thumbnailUrl": "https://i.ytimg.com/vi/2Hw2pkJvdY0/hqdefault.jpg",
+            "contentUrl": "https://www.youtube.com/watch?v=2Hw2pkJvdY0",
+            "embedUrl": "https://www.youtube.com/embed/2Hw2pkJvdY0?feature=oembed",
+            "@type": "VideoObject"
+        },
+        "recipeYield": ["12", "12 people"],
+        "prepTime": "PT13M",
+        "cookTime": "PT37M",
+        "totalTime": "PT65M",
+        "recipeIngredient": ["1/2 lb unsalted butter ((softened or cut into pieces if cold for faster melting))", "16 oz semisweet chocolate chips ((2 1/2 cups by measuring cup), divided)", "4  eggs (large)", "1 1/4 cups granulated sugar", "1 Tbsp instant coffee granules ((6.2 grams))", "3 Tbsp light olive oil  (or vegetable oil)", "1 Tbsp vanilla extract", "2/3 cup all-purpose flour", "1/2 cup unsweetened cocoa powder", "1 1/2 tsp baking powder", "1/2 tsp salt"],
+        "recipeInstructions": [{
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350\u02daF. Butter a 9x9 pan and line with parchment paper.",
+            "name": "Preheat oven to 350\u02daF. Butter a 9x9 pan and line with parchment paper.",
+            "url": "https://natashaskitchen.com/fudgy-brownie-recipe/#wprm-recipe-67021-step-0-0"
+        }, {
+            "@type": "HowToStep",
+            "text": "In a medium saucepan over low heat, Melt together 2 cups chocolate chips and butter while whisking then set aside to cool 15 minutes.",
+            "name": "In a medium saucepan over low heat, Melt together 2 cups chocolate chips and butter while whisking then set aside to cool 15 minutes.",
+            "url": "https://natashaskitchen.com/fudgy-brownie-recipe/#wprm-recipe-67021-step-0-1"
+        }, {
+            "@type": "HowToStep",
+            "text": "In a second large bowl, whisk together 4 eggs, 1 1/4 cups granulated sugar and coffee granules, 3 Tbsp oil and 1 Tbsp vanilla extract.",
+            "name": "In a second large bowl, whisk together 4 eggs, 1 1/4 cups granulated sugar and coffee granules, 3 Tbsp oil and 1 Tbsp vanilla extract.",
+            "url": "https://natashaskitchen.com/fudgy-brownie-recipe/#wprm-recipe-67021-step-0-2"
+        }, {
+            "@type": "HowToStep",
+            "text": "Stir cooled chocolate mixture into the egg mixture.",
+            "name": "Stir cooled chocolate mixture into the egg mixture.",
+            "url": "https://natashaskitchen.com/fudgy-brownie-recipe/#wprm-recipe-67021-step-0-3"
+        }, {
+            "@type": "HowToStep",
+            "text": "In a medium bowl, whisk together 2/3 cup flour, 1/2 cup cocoa, 1 1/2 tsp baking powder and 1/2 tsp salt then use a spatula to fold mixture into the batter and fold just until combined. Do not over mix.",
+            "name": "In a medium bowl, whisk together 2/3 cup flour, 1/2 cup cocoa, 1 1/2 tsp baking powder and 1/2 tsp salt then use a spatula to fold mixture into the batter and fold just until combined. Do not over mix.",
+            "url": "https://natashaskitchen.com/fudgy-brownie-recipe/#wprm-recipe-67021-step-0-4"
+        }, {
+            "@type": "HowToStep",
+            "text": "Transfer batter to prepared pan and sprinkle all over with remaining 1/2 cup chocolate chips. Bake at 350 for 35-40 min depending on the desired doneness.* Cool until nearly at room temperature then cut into bars before serving.",
+            "name": "Transfer batter to prepared pan and sprinkle all over with remaining 1/2 cup chocolate chips. Bake at 350 for 35-40 min depending on the desired doneness.* Cool until nearly at room temperature then cut into bars before serving.",
+            "url": "https://natashaskitchen.com/fudgy-brownie-recipe/#wprm-recipe-67021-step-0-5"
+        }],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.93",
+            "ratingCount": "89"
+        },
+        "recipeCategory": ["Easy"],
+        "recipeCuisine": ["$8-$10"],
+        "keywords": "brownie recipe, fudgy brownies",
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "526 kcal",
+            "carbohydrateContent": "49 g",
+            "proteinContent": "6 g",
+            "fatContent": "35 g",
+            "saturatedFatContent": "19 g",
+            "cholesterolContent": "97 mg",
+            "sodiumContent": "126 mg",
+            "fiberContent": "4 g",
+            "sugarContent": "35 g",
+            "servingSize": "1 serving"
+        },
+        "@id": "https://natashaskitchen.com/fudgy-brownie-recipe/#recipe",
+        "isPartOf": {
+            "@id": "https://natashaskitchen.com/fudgy-brownie-recipe/#article"
+        },
+        "mainEntityOfPage": "https://natashaskitchen.com/fudgy-brownie-recipe/#webpage"
+    }]
+}

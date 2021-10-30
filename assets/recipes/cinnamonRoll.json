@@ -1,0 +1,291 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [{
+        "@type": "Organization",
+        "@id": "https://www.recipetineats.com/#organization",
+        "name": "RecipeTin Eats",
+        "url": "https://www.recipetineats.com/",
+        "sameAs": ["https://www.facebook.com/RecipeTinEats", "http://instagram.com/recipe_tin", "https://www.linkedin.com/in/nagi-maehashi-9779648b", "https://www.youtube.com/c/recipetineats", "http://www.pinterest.com/recipetin/"],
+        "logo": {
+            "@type": "ImageObject",
+            "@id": "https://www.recipetineats.com/#logo",
+            "inLanguage": "en-US",
+            "url": "https://www.recipetineats.com/wp-content/uploads/2019/04/RecipeTinEats_logo_for_Knowledge_Graph_card.png",
+            "contentUrl": "https://www.recipetineats.com/wp-content/uploads/2019/04/RecipeTinEats_logo_for_Knowledge_Graph_card.png",
+            "width": 2591,
+            "height": 347,
+            "caption": "RecipeTin Eats"
+        },
+        "image": {
+            "@id": "https://www.recipetineats.com/#logo"
+        }
+    }, {
+        "@type": "WebSite",
+        "@id": "https://www.recipetineats.com/#website",
+        "url": "https://www.recipetineats.com/",
+        "name": "RecipeTin Eats",
+        "description": "Fast Prep, Big Flavours",
+        "publisher": {
+            "@id": "https://www.recipetineats.com/#organization"
+        },
+        "potentialAction": [{
+            "@type": "SearchAction",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://www.recipetineats.com/?s={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+        }],
+        "inLanguage": "en-US"
+    }, {
+        "@type": "ImageObject",
+        "@id": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#primaryimage",
+        "inLanguage": "en-US",
+        "url": "https://www.recipetineats.com/wp-content/uploads/2017/06/Cinnamon-Rolls-11.jpg",
+        "contentUrl": "https://www.recipetineats.com/wp-content/uploads/2017/06/Cinnamon-Rolls-11.jpg",
+        "width": 964,
+        "height": 1350,
+        "caption": "Magic No Knead Cinnamon Rolls - soft and fluffy with a cream cheese glaze! recipetineats.com"
+    }, {
+        "@type": "WebPage",
+        "@id": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#webpage",
+        "url": "https://www.recipetineats.com/no-knead-cinnamon-rolls/",
+        "name": "No Knead Cinnamon Rolls | RecipeTin Eats",
+        "isPartOf": {
+            "@id": "https://www.recipetineats.com/#website"
+        },
+        "primaryImageOfPage": {
+            "@id": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#primaryimage"
+        },
+        "datePublished": "2017-06-09T08:52:00+00:00",
+        "dateModified": "2019-12-06T19:43:51+00:00",
+        "description": "Soft, fluffy No Knead Cinnamon Rolls made without overnight rising, no stand mixer and no kneading. These are magical - and easy! Quick recipe video included.",
+        "breadcrumb": {
+            "@id": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#breadcrumb"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": [{
+            "@type": "ReadAction",
+            "target": ["https://www.recipetineats.com/no-knead-cinnamon-rolls/"]
+        }]
+    }, {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#breadcrumb",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.recipetineats.com/"
+        }, {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Baking Recipes",
+            "item": "https://www.recipetineats.com/category/baking-recipes/"
+        }, {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "No Knead Cinnamon Rolls"
+        }]
+    }, {
+        "@type": "Article",
+        "@id": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#article",
+        "isPartOf": {
+            "@id": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#webpage"
+        },
+        "author": {
+            "@id": "https://www.recipetineats.com/#/schema/person/1d495a057e0419b552333c8526d827a9"
+        },
+        "headline": "No Knead Cinnamon Rolls",
+        "datePublished": "2017-06-09T08:52:00+00:00",
+        "dateModified": "2019-12-06T19:43:51+00:00",
+        "wordCount": 1919,
+        "commentCount": 282,
+        "publisher": {
+            "@id": "https://www.recipetineats.com/#organization"
+        },
+        "image": {
+            "@id": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#primaryimage"
+        },
+        "thumbnailUrl": "https://www.recipetineats.com/wp-content/uploads/2017/06/Cinnamon-Rolls-11.jpg",
+        "articleSection": ["Baking Recipes", "Breads", "Easter Baking &amp; Desserts", "Easter Brunch Recipes", "Sweet"],
+        "inLanguage": "en-US",
+        "potentialAction": [{
+            "@type": "CommentAction",
+            "name": "Comment",
+            "target": ["https://www.recipetineats.com/no-knead-cinnamon-rolls/#respond"]
+        }]
+    }, {
+        "@type": "Person",
+        "@id": "https://www.recipetineats.com/#/schema/person/1d495a057e0419b552333c8526d827a9",
+        "name": "Nagi",
+        "image": {
+            "@type": "ImageObject",
+            "@id": "https://www.recipetineats.com/#personlogo",
+            "inLanguage": "en-US",
+            "url": "https://secure.gravatar.com/avatar/400004f5258d5b43d30deed3aa6e9566?s=96&d=https%3A%2F%2Fwww.recipetineats.com%2Fwp-content%2Fthemes%2Fonce-coupled-recipe-tin-eats%2Fassets%2Fimages%2Favatar-guest-temp-cache-bust-duplicate.png&r=g",
+            "contentUrl": "https://secure.gravatar.com/avatar/400004f5258d5b43d30deed3aa6e9566?s=96&d=https%3A%2F%2Fwww.recipetineats.com%2Fwp-content%2Fthemes%2Fonce-coupled-recipe-tin-eats%2Fassets%2Fimages%2Favatar-guest-temp-cache-bust-duplicate.png&r=g",
+            "caption": "Nagi"
+        },
+        "description": "I believe you can make great food with everyday ingredients even if you\u2019re short on time and cost conscious. You just need to cook clever and get creative!",
+        "sameAs": ["http:////www.recipetineats.com/about-me/"]
+    }, {
+        "@context": "http://schema.org/",
+        "@type": "Recipe",
+        "name": "No Knead Cinnamon Rolls",
+        "author": {
+            "@type": "Person",
+            "name": "Nagi"
+        },
+        "description": "Soft, fluffy cinnamon rolls made from scratch with a dump-and-mix dough that requires no kneading! Frosted with a sticky cream cheese glaze, these are sweet but nowhere near as sickly sweet as store bought ones. This recipe is quite forgiving - see notes. Instructions are long because I'm providing helpful hints but this recipe is actually quite straight forward! Recipe video below.",
+        "datePublished": "2017-06-09T18:52:00+00:00",
+        "image": ["https://www.recipetineats.com/wp-content/uploads/2017/06/Cinnamon-Rolls-11.jpg", "https://www.recipetineats.com/wp-content/uploads/2017/06/Cinnamon-Rolls-11.jpg?w=500&h=500&crop=1", "https://www.recipetineats.com/wp-content/uploads/2017/06/Cinnamon-Rolls-11.jpg?w=500&h=375&crop=1", "https://www.recipetineats.com/wp-content/uploads/2017/06/Cinnamon-Rolls-11.jpg?w=480&h=270&crop=1"],
+        "recipeYield": ["12"],
+        "prepTime": "PT20M",
+        "cookTime": "PT20M",
+        "totalTime": "PT40M",
+        "recipeIngredient": ["1 tbsp dry yeast ((Note 1))", "70 g / 1/3 cup  caster sugar ((superfine sugar), or sub with normal white sugar)", "1/2 cup / 125 ml  warm water ((Note 2))", "600 g / 20 oz  plain flour / all purpose flour ((4 1/2 US Cups, 4 Cups everywhere else exc Japan) (Note 3))", "1/2 tsp salt", "1 cup / 250 ml  milk (, lukewarm, whole or low fat, (Note 2))", "50 g / 3.5 tbsp  unsalted butter (, melted and slightly cooled)", "2  large eggs (, beaten with fork)", "1/4 cup / 35g  plain flour ((all purpose flour), plus more as required)", "90 g / 6 tbsp  unsalted butter (, melted)", "1 cup / 220 g  brown sugar (, packed)", "2 tbsp cinnamon powder", "90 g / 3 oz  cream cheese (, softened)", "50 / 3 tbsp unsalted butter (, softened)", "1 tsp vanilla extract ((or essence))", "1 1/4 cups / 150g  soft icing sugar / powdered sugar", "2 - 3 tbsp milk (, any (or water))"],
+        "recipeInstructions": [{
+            "@type": "HowToSection",
+            "name": "Buns:",
+            "itemListElement": [{
+                "@type": "HowToStep",
+                "text": "Place the yeast and 2 teaspoons of the sugar in a medium bowl, then pour in water. Leave for 5 minutes until it froths.",
+                "name": "Place the yeast and 2 teaspoons of the sugar in a medium bowl, then pour in water. Leave for 5 minutes until it froths.",
+                "url": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#wprm-recipe-21767-step-0-0"
+            }, {
+                "@type": "HowToStep",
+                "text": "Place 600g/20oz flour, remaining sugar and salt in a bowl. Mix to combine.",
+                "name": "Place 600g/20oz flour, remaining sugar and salt in a bowl. Mix to combine.",
+                "url": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#wprm-recipe-21767-step-0-1"
+            }, {
+                "@type": "HowToStep",
+                "text": "Make a well in the centre. Add milk, butter, eggs and pour in the yeast liquid, including all froth.",
+                "name": "Make a well in the centre. Add milk, butter, eggs and pour in the yeast liquid, including all froth.",
+                "url": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#wprm-recipe-21767-step-0-2"
+            }, {
+                "@type": "HowToStep",
+                "text": "Mix until combined with wooden spoon - it will be like a sticky muffin batter, not kneadable.",
+                "name": "Mix until combined with wooden spoon - it will be like a sticky muffin batter, not kneadable.",
+                "url": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#wprm-recipe-21767-step-0-3"
+            }, {
+                "@type": "HowToStep",
+                "text": "Rise # 1: Cover with cling wrap and place in a warm place (25C/77F+) to rise for around 1 1/4 - 1 1/2 hrs or until almost tripled in volume. (Note 4) Dough surface should be bubbly (see video or photos in post).",
+                "name": "Rise # 1: Cover with cling wrap and place in a warm place (25C/77F+) to rise for around 1 1/4 - 1 1/2 hrs or until almost tripled in volume. (Note 4) Dough surface should be bubbly (see video or photos in post).",
+                "url": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#wprm-recipe-21767-step-0-4"
+            }]
+        }, {
+            "@type": "HowToSection",
+            "name": "Making Rolls &amp; Rise #2 (video is helpful):",
+            "itemListElement": [{
+                "@type": "HowToStep",
+                "text": "Line a 31.5 x 23.5 cm / 9 x 13\" tray with baking paper with overhang.",
+                "name": "Line a 31.5 x 23.5 cm / 9 x 13\" tray with baking paper with overhang.",
+                "url": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#wprm-recipe-21767-step-1-0"
+            }, {
+                "@type": "HowToStep",
+                "text": "Mix cinnamon and sugar in a bowl.",
+                "name": "Mix cinnamon and sugar in a bowl.",
+                "url": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#wprm-recipe-21767-step-1-1"
+            }, {
+                "@type": "HowToStep",
+                "text": "Uncover dough, mix with spoon to deflate.",
+                "name": "Uncover dough, mix with spoon to deflate.",
+                "url": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#wprm-recipe-21767-step-1-2"
+            }, {
+                "@type": "HowToStep",
+                "text": "Sprinkle half Extra Flour on work surface, pour dough on, sprinkle over remaining Extra Flour.&nbsp;Use hands to incorporate the flour into the dough - it may not absorb it all (or need more), the dough will stop absorbing flour when it's no longer sticky, should be soft, pliable.",
+                "name": "Sprinkle half Extra Flour on work surface, pour dough on, sprinkle over remaining Extra Flour.&nbsp;Use hands to incorporate the flour into the dough - it may not absorb it all (or need more), the dough will stop absorbing flour when it's no longer sticky, should be soft, pliable.",
+                "url": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#wprm-recipe-21767-step-1-3"
+            }, {
+                "@type": "HowToStep",
+                "text": "If work surface is now flour free, sprinkle with more flour.",
+                "name": "If work surface is now flour free, sprinkle with more flour.",
+                "url": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#wprm-recipe-21767-step-1-4"
+            }, {
+                "@type": "HowToStep",
+                "text": "Shape dough into log, then roll out into 28 x 48 cm / 11 x 19\" rectangle.",
+                "name": "Shape dough into log, then roll out into 28 x 48 cm / 11 x 19\" rectangle.",
+                "url": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#wprm-recipe-21767-step-1-5"
+            }, {
+                "@type": "HowToStep",
+                "text": "Pour over butter, then brush all over, then sprinkle with cinnamon sugar.",
+                "name": "Pour over butter, then brush all over, then sprinkle with cinnamon sugar.",
+                "url": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#wprm-recipe-21767-step-1-6"
+            }, {
+                "@type": "HowToStep",
+                "text": "Roll up firmly, then shape into an even log.",
+                "name": "Roll up firmly, then shape into an even log.",
+                "url": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#wprm-recipe-21767-step-1-7"
+            }, {
+                "@type": "HowToStep",
+                "text": "Cut into 12 pieces (4cm / 1.6\"), then place on tray (3 x 4).",
+                "name": "Cut into 12 pieces (4cm / 1.6\"), then place on tray (3 x 4).",
+                "url": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#wprm-recipe-21767-step-1-8"
+            }, {
+                "@type": "HowToStep",
+                "text": "Cover with tea towel then place in warm place for 40 minutes or until almost doubled.",
+                "name": "Cover with tea towel then place in warm place for 40 minutes or until almost doubled.",
+                "url": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#wprm-recipe-21767-step-1-9"
+            }]
+        }, {
+            "@type": "HowToSection",
+            "name": "Baking / Frosting:",
+            "itemListElement": [{
+                "@type": "HowToStep",
+                "text": "Preheat oven to 180C/350F (standard) or 160C/320F (fan / convection). Place shelf in the middle of the oven.",
+                "name": "Preheat oven to 180C/350F (standard) or 160C/320F (fan / convection). Place shelf in the middle of the oven.",
+                "url": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#wprm-recipe-21767-step-2-0"
+            }, {
+                "@type": "HowToStep",
+                "text": "Bake for 20 minutes, rotating the tray at 16 minutes.",
+                "name": "Bake for 20 minutes, rotating the tray at 16 minutes.",
+                "url": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#wprm-recipe-21767-step-2-1"
+            }, {
+                "@type": "HowToStep",
+                "text": "Buns are ready when the middle rolls are golden and the outer ones are deep golden on the edges. Tap the middle ones - they should sound hollow.",
+                "name": "Buns are ready when the middle rolls are golden and the outer ones are deep golden on the edges. Tap the middle ones - they should sound hollow.",
+                "url": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#wprm-recipe-21767-step-2-2"
+            }, {
+                "@type": "HowToStep",
+                "text": "Optional: Brush with 1 tbsp / 15g melted butter to remove any residual flour spots.",
+                "name": "Optional: Brush with 1 tbsp / 15g melted butter to remove any residual flour spots.",
+                "url": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#wprm-recipe-21767-step-2-3"
+            }, {
+                "@type": "HowToStep",
+                "text": "Use paper overhang to lift rolls onto cooling rack (key step - Note 5). Cool for 1 hour (will still be warm).",
+                "name": "Use paper overhang to lift rolls onto cooling rack (key step - Note 5). Cool for 1 hour (will still be warm).",
+                "url": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#wprm-recipe-21767-step-2-4"
+            }, {
+                "@type": "HowToStep",
+                "text": "Use a spoon to frost with glaze. Best served warm!",
+                "name": "Use a spoon to frost with glaze. Best served warm!",
+                "url": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#wprm-recipe-21767-step-2-5"
+            }]
+        }, {
+            "@type": "HowToSection",
+            "name": "Glaze:",
+            "itemListElement": [{
+                "@type": "HowToStep",
+                "text": "Place butter, cream cheese and vanilla in a bowl. Beat until smooth (10 - 15 seconds).",
+                "name": "Place butter, cream cheese and vanilla in a bowl. Beat until smooth (10 - 15 seconds).",
+                "url": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#wprm-recipe-21767-step-3-0"
+            }, {
+                "@type": "HowToStep",
+                "text": "Add icing sugar, beat to incorporate. Add enough milk to make it a consistency that can be spooned over the buns and it drips slightly (see video).",
+                "name": "Add icing sugar, beat to incorporate. Add enough milk to make it a consistency that can be spooned over the buns and it drips slightly (see video).",
+                "url": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#wprm-recipe-21767-step-3-1"
+            }]
+        }],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.96",
+            "ratingCount": "72"
+        },
+        "recipeCategory": ["Sweet Baking"],
+        "@id": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#recipe",
+        "isPartOf": {
+            "@id": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#article"
+        },
+        "mainEntityOfPage": "https://www.recipetineats.com/no-knead-cinnamon-rolls/#webpage"
+    }]
+}

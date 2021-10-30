@@ -5,7 +5,10 @@
 const recipes = [
   'https://introweb.tech/assets/json/ghostCookies.json',
   'https://introweb.tech/assets/json/birthdayCake.json',
-  'https://introweb.tech/assets/json/chocolateChip.json'
+  'https://introweb.tech/assets/json/chocolateChip.json',
+  'assets/recipes/brownies.json',
+  'assets/recipes/cinnamonRoll.json',
+  'assets/recipes/pumpkinPie.json'
 ];
 
 // Once all of the recipes that were specified above have been fetched, their
@@ -55,7 +58,9 @@ async function fetchRecipes() {
           resolve(true);
         }
       })
-      .catch(e => reject(false));
+      .catch(e => {
+        reject(false)
+      });
     }
   });
 }
@@ -68,12 +73,26 @@ function createRecipeCards() {
   // show any others you've added when the user clicks on the "Show more" button.
 
   // Part 1 Expose - TODO
+  let renderFirst = [];
+  let renderLast = [];
   const main = document.querySelector("main");
   for (const recipe in recipeData) {
-    console.log(recipe);
     const recipeElem = document.createElement('recipe-card');
     recipeElem.data = recipeData[recipe];
-    main.appendChild(recipeElem);
+    if (recipes.slice(0, 3).includes(recipe)) {
+      renderFirst.push(recipeElem);
+    }
+    else {
+      renderLast.push(recipeElem);
+      recipeElem.classList.add('show-more')
+      recipeElem.style.display = "none";
+    }
+  }
+  for (let i = 0; i < renderFirst.length; i++) {
+    main.appendChild(renderFirst[i]);
+  }
+  for (let i = 0; i < renderLast.length; i++) {
+    main.appendChild(renderLast[i]);
   }
 }
 
@@ -86,4 +105,22 @@ function bindShowMore() {
   // in the recipeData object where you stored them/
 
   // Part 2 Explore - TODO
+  const cards = document.getElementsByClassName('show-more');
+  const showMoreButton = document.querySelector('button');
+  showMoreButton.addEventListener('click', () => {
+    if (showMoreButton.classList.contains('expanded')) {
+      for (let i = 0; i < cards.length; i++) {
+        cards[i].style.display = "none";
+      }
+      showMoreButton.innerHTML = "Show more";
+      showMoreButton.classList.remove('expanded');
+    }
+    else {
+      for (let i = 0; i < cards.length; i++) {
+        cards[i].style.display = "block";
+      }
+      showMoreButton.classList.add('expanded');
+      showMoreButton.innerHTML = "Show less";
+    }
+  })
 }
